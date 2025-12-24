@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+}
+
+header {
+  background-image: url('./assets/header.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -moz-background-size: cover;
+  height: 30vh;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+}
+
+ul li label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+ul li input[type='radio'] {
+  cursor: pointer;
+}
+
+ul li img {
+  width: 28px;
+  height: 28px;
+  margin-left: 15px;
+}
+
+#main {
+  margin: 1em;
+  padding: 1em;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-family: 'Nunito', sans-serif;
+}
+
+#form > div > label[id='input'] {
+  text-align: center;
+  display: block;
+  color: #035a9d;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+#form > div > textarea[id='input'],
+#box {
+  padding: 1em;
+  height: 92px;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1.8em;
+  resize: none;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #eee;
+  outline: transparent;
+  border: none;
+}
+
+#form > div > textarea[id='input']:focus {
+  outline: none;
+}
+
+#select-language,
+h3 {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #035a9d;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+button[type='submit'],
+#start-over {
+  width: 100%;
+  background-color: #035a9d;
+  color: white;
+  border: none;
+  padding: 0.85em;
+  border-radius: 4px;
+  margin-top: 2em;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#box {
+  height: 120px;
+}
+
+#box > p {
+  font-weight: 600;
+  font-size: 18px;
+}
