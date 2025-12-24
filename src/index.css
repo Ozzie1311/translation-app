@@ -13,7 +13,7 @@
 }
 
 header {
-  background-image: url('./assets/header.avif');
+  background-image: url('/assets/header.avif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
